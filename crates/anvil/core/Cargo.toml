@@ -14,7 +14,7 @@ foundry-common.workspace = true
 foundry-evm.workspace = true
 
 alloy-primitives = { workspace = true, features = ["serde"] }
-revm = { workspace = true, default-features = false, features = ["std", "serde", "memory_limit"] }
+revm = { workspace = true, default-features = false, features = ["std", "serde", "memory_limit", "optimism"] }
 ethers-core = { workspace = true, features = ["optimism"] }
 # theses are not used by anvil-core, but are required by ethers, because pulled in via foundry-common
 ethers-contract = { workspace = true, features = ["optimism"] }
