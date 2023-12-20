@@ -142,7 +142,7 @@ ethers-middleware = { version = "2.0", default-features = false }
 ethers-solc = { version = "2.0", default-features = false }
 
 ## alloy
-alloy-primitives = "0.5.0"
+alloy-primitives = "0.5.3"
 alloy-dyn-abi = "0.5.0"
 alloy-json-abi = "0.5.0"
 alloy-sol-types = "0.5.0"
@@ -197,7 +197,7 @@ ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194
 ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
 ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
 
-revm = { git = "https://github.com/bluealloy/revm", branch = "reth_freeze" }
+revm = { git = "https://github.com/bluealloy/revm", branch = "reth_freeze", features =["std", "optimism"] }
 revm-interpreter = { git = "https://github.com/bluealloy/revm", branch = "reth_freeze" }
 revm-precompile = { git = "https://github.com/bluealloy/revm", branch = "reth_freeze" }
 revm-primitives = { git = "https://github.com/bluealloy/revm", branch = "reth_freeze" }
