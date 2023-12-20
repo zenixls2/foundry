@@ -127,8 +127,10 @@ foundry-block-explorers = { version = "0.1.2", default-features = false }
 foundry-compilers = { version = "0.1.1", default-features = false }
 
 ## revm
-revm = { version = "3", default-features=false }
-revm-primitives = { version = "1", default-features=false }
+revm = { git = "https://github.com/zenixls2/revm", branch = "master", default-features=false }
+revm-interpreter = { git = "https://github.com/zenixls2/revm", branch = "master", default-features=false }
+revm-precompile = { git = "https://github.com/zenixls2/revm", branch = "master", default-feataures=false }
+revm-primitives = { git = "https://github.com/zenixls2/revm", branch = "master" , default-features=false }
 
 ## ethers
 ethers = { version = "2.0", default-features = false }
@@ -195,9 +197,3 @@ ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b1
 ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
 ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
 ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-
-revm = { git = "https://github.com/zenixls2/revm", branch = "master" }
-revm-interpreter = { git = "https://github.com/zenixls2/revm", branch = "master" }
-revm-precompile = { git = "https://github.com/zenixls2/revm", branch = "master" }
-revm-primitives = { git = "https://github.com/zenixls2/revm", branch = "master" }
-
